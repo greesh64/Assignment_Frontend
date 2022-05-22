@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("#signup").validate({
+        rules:{
+        fname:{
+        required:true,
+        minlength:4
+        },
+        sname:{
+            required:true,
+            minlength:4
+        },
+        email:{
+            required:true,
+            email:true
+        },
+        pass:{
+            required:true,
+            minlength:6
+        }
+    }
+    })
+})
