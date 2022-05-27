@@ -1,2 +1,2 @@
-# Assignment_Frontend
+#Student_reg_Frontend
 frontend
